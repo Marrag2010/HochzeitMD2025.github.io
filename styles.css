@@ -329,6 +329,8 @@ html {
 }
 
 .rsvp-form {
+  font-family: inherit; /* Verwendet die Schriftart deiner Webseite */
+  font-size: 16px;
   max-width: 600px;
   margin: auto;
   padding: 20px;
