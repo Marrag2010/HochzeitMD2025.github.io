@@ -367,7 +367,7 @@ html {
 .radio-option,
 .checkbox-option {
   display: flex;
-  align-items: center;
+  align-items: left;
   margin-bottom: 10px;
 }
 
