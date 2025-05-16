@@ -181,49 +181,43 @@
     <section id="RSVP">
       <h2>RSVP <span><i class="fa-solid fa-envelope-circle-check"></i></span></h2>
       <p>Bitte gebt uns bis zum 01.08.2025 Bescheid ob Ihr dabei seid und zu wie vielt ihr kommt</p>
-      <form action="https://script.google.com/macros/s/AKfycbydRdY0Kq6-uZsq_fLXluVAiSwx7DSrPGT87ut8awNsS7z1lRhLedRczn3LIaD-wtkahQ/exec" method="POST">
+<form action="DEINE_WEB_APP_URL" method="POST" class="rsvp-form">
   <label>
     Dein Name:
     <input type="text" name="name" required>
   </label><br>
+
   <label>
     Deine E-Mail:
     <input type="email" name="email" required>
   </label><br>
- <form class="rsvp-form">
-  <!-- Frage 1: Teilnahme -->
+
   <fieldset>
     <legend>Wirst du an der Hochzeit teilnehmen?</legend>
-    <div class="radio-option">
-<label>      
-<input type="radio" id="rsvp-yes" name="rsvp" value="yes">
-      <span class="label-text">Ja, ich werde dabei sein</label>
-</label>    
-</div>
-    <div class="radio-option">
-<label>
-      <input type="radio" id="rsvp-no" name="rsvp" value="no">
-      <span class="label-text">Nein, ich kann leider nicht dabei sein</label>
-</label>    
-</div>
+    <label>
+      <input type="radio" name="rsvp" value="yes" required>
+      Ja, ich werde dabei sein
+    </label><br>
+    <label>
+      <input type="radio" name="rsvp" value="no">
+      Nein, ich kann leider nicht dabei sein
+    </label>
   </fieldset>
-  <!-- Frage 2: Weitere Unternehmungen -->
+
   <fieldset>
     <legend>Weitere Unternehmungen</legend>
-    <div class="radio-option">
-<label>
-      <input type="radio" id="weekend-activity" name="weekend_activity" value="yes">
-      <span class="label-text">Ich möchte am Wochenende noch etwas mit euch unternehmen</label>
-</label>    
-</div>
+    <label>
+      <input type="checkbox" name="weekend_activity" value="yes">
+      Ich möchte am Wochenende noch etwas mit euch unternehmen
+    </label>
   </fieldset>
-<div class="comments-section">
-  <label for="comments">Hast du Anmerkungen oder spezielle Wünsche?</label>
-  <textarea id="comments" name="comments" rows="4" placeholder="Deine Nachricht..."></textarea>
-</div> 
+
+  <label for="comments">Hast du Anmerkungen oder spezielle Wünsche?</label><br>
+  <textarea id="comments" name="comments" rows="4" placeholder="Deine Nachricht..."></textarea><br>
+
   <button type="submit">Antwort senden</button>
-  <input type="submit" value="Absenden">	
 </form>
+
     </section>
 
    <section id="Wünsche">
