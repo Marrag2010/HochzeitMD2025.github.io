@@ -339,7 +339,7 @@ html {
 .rsvp-form label {
   display: block;
   margin-bottom: 8px;
-  font-weight: normal;
+  font-weight: normal !important;
 }
 
 .rsvp-form input[type="text"],
@@ -367,13 +367,14 @@ html {
 .radio-option,
 .checkbox-option {
   display: flex;
-  align-items: left;
+  align-items: center;
   margin-bottom: 10px;
 }
 
 .radio-option input[type="radio"],
 .checkbox-option input[type="checkbox"] {
   margin-right: 10px;
+  vertical-align: middle;
 }
 
 .comments-section {
