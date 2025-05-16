@@ -339,7 +339,7 @@ html {
 .rsvp-form label {
   display: block;
   margin-bottom: 8px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .rsvp-form input[type="text"],
