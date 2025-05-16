@@ -333,12 +333,13 @@ html {
   font-size: 16px;
   max-width: 600px;
   margin: auto;
+  padding: 20px;
 }
 
 .rsvp-form label {
   display: block;
   margin-bottom: 8px;
-  cursor: pointer;
+  font-weight: bold;
 }
 
 .rsvp-form input[type="text"],
@@ -348,12 +349,14 @@ html {
   padding: 8px;
   margin-bottom: 16px;
   box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 .rsvp-form fieldset {
   border: 1px solid #ccc;
   padding: 12px;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 .rsvp-form legend {
@@ -361,10 +364,34 @@ html {
   padding: 0 8px;
 }
 
-.rsvp-form input[type="radio"],
-.rsvp-form input[type="checkbox"] {
-  vertical-align: middle;
-  margin-right: 8px;
+.radio-option,
+.checkbox-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.radio-option input[type="radio"],
+.checkbox-option input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.comments-section {
+  margin-top: 15px;
+}
+
+.comments-section label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.comments-section textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
 }
 
 .rsvp-form button {
@@ -373,40 +400,6 @@ html {
   cursor: pointer;
 }
 
-.comments-section {
-  margin-top: 15px;
-}
-
-.comments-section label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: normal;
-}
-
-.comments-section textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  resize: vertical;
-}
-.comments-section {
-  margin-top: 15px;
-}
-
-.comments-section label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-
-.comments-section textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  resize: vertical;
-}
 
 .upload-icon {
   font-size: 40px; /* Passe die Größe nach Bedarf an */
