@@ -327,40 +327,25 @@ html {
   scroll-behavior: smooth;
 }
 
-.rsvp-form {
-  font-family: inherit; /* Verwendet die Schriftart deiner Webseite */
-  font-size: 20px;
-  max-width: 600px;
-  margin: auto;
-  padding: 20px;
-}
-
-.rsvp-form label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: normal !important;
-}
-
-.rsvp-form input[type="text"],
-.rsvp-form input[type="email"],
-.rsvp-form textarea {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 16px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
 .rsvp-form fieldset {
-  border: 1px solid #ccc;
-  padding: 12px;
+  border: none;
   margin-bottom: 20px;
+  align-items: left;
 }
 
-.rsvp-form legend {
-  font-weight: bold;
-  padding: 0 8px;
+.radio-option label {
+   display: flex;
+   align-items:center;
+   font-size: 18px;
+}
+
+.label-text {
+   margin-right: 10px;
+}
+
+.radio-option input[type="radio"] {
+   width: 16px;
+   height: 16px;
 }
 
 .radio-option,
@@ -370,21 +355,36 @@ html {
   margin-bottom: 10px;
 }
 
-.radio-option input[type="radio"],
-.checkbox-option input[type="checkbox"] {
-  margin-right: 10px;
-  vertical-align: middle;
+.radio-option input,
+.checkbox-option input {
+  margin-right: 8px;
 }
 
-.radio-option label,
-.checkbox-option label {
+.radio-group label {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  gap: 10px; /* Abstand zwischen Button und Text */
+  gap: 8px;
+  text-align:left;
+  font-size: 1.3rem;
+}
+
+.comments-section {
+  margin-top: 15px;
+}
+
+.comments-section label {
+  display: block;
+  margin-bottom: 5px;
   font-weight: normal;
 }
 
+.comments-section textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
 .comments-section {
   margin-top: 15px;
 }
@@ -402,13 +402,6 @@ html {
   border-radius: 5px;
   resize: vertical;
 }
-
-.rsvp-form button {
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
 
 .upload-icon {
   font-size: 40px; /* Passe die Größe nach Bedarf an */
