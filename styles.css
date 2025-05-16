@@ -1,0 +1,459 @@
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: url('floral-frame.png') no-repeat center center;
+  background-size: 1200px;
+  opacity: 0.25; /* Transparenz anpassbar */
+  z-index: -1;
+  pointer-events: none;
+}
+
+body {
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+  background: #fffdf8;
+  color: #3e3e3e;
+}
+
+h1, h2 {
+  font-family: 'Great Vibes', cursive;
+  color: #8b5e3c;
+}
+
+h1 {
+  font-size: 5rem; /* sehr groß */
+  margin-bottom: 0.2em; /* oder 0, je nach gewünschtem Abstand */
+}
+
+h2 {
+  font-size: 3rem; /* etwas kleiner */
+  margin-bottom: 1.0em; /* oder 0, je nach gewünschtem Abstand */
+  margin-top: 2.0em;
+  line-height: 1.0; /* Standard ist meist 1.4 – 1.6 sieht luftig aus */
+  text-align: center;
+}
+
+h2 span {
+  font-size: 3rem;
+  margin-left: 1.0em;
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 0.5; /* Standard ist meist 1.4 – 1.6 sieht luftig aus */
+  text-align: center;
+}
+
+p span {
+  font-size: 1.5rem;
+  margin-left: 0.4em;
+}
+
+label {
+  font-size: 1.3rem;
+}
+
+.ul {
+  font-size: 1.3rem; /* normal*/
+  line-height: 1.6; /* Standard ist meist 1.4 – 1.6 sieht luftig aus */
+}
+
+ul span {
+  font-size: 1.5rem;
+  margin-left: 0.4em;
+}
+
+ul.timeline {
+  list-style: none;
+  padding: 0;
+}
+
+ul.timeline li {
+  margin-bottom: 0.6rem;
+  font-size: 1.3rem; /* normal*/
+}
+
+.zeitplan {
+  display: grid;
+  grid-template-columns: 70px 100px auto;
+  row-gap: 10px;
+  align-items: center;
+  font-size: 1.3rem; /* normal*/
+}
+
+.icon {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.zeit {
+  font-weight: bold;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.ereignis {
+  text-align: left;
+}
+
+
+.ul a {
+color: #333;
+textdecoration: none;
+font-size: 1.3rem; /* normal*/
+border-bottom: 1px dotted #999;
+transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.ul a:hover,
+.ul a:focus {
+   color: #007BFF;
+   border-bottom: 1px solid #007BFF;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('header1.jpg') no-repeat center center / cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hr-text {
+  position: relative;
+  border: none;
+  height: 1.5em;
+  text-align: center;
+  margin: 20px auto;
+  margin-top: 0.2em; /* oder 0, je nach gewünschtem Abstand */
+  color: #7a4c32; /* Textfarbe */
+  font-family: 'Great Vibes', cursive; /* Schriftart */
+  font-size: 1.5em; /* Schriftgröße anpassen */
+}
+
+.hr-text::before {
+  content: '';
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  height: 0.5px;
+  background: #7a4c32; /* Linienfarbe */
+  transform: translateY(-50%);
+}
+
+.hr-text::after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  padding: 0 1em;
+  background-color: #fffdf8; /* Hintergrundfarbe der Seite */
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.hero-text {
+  position: relative;
+  background: rgba(255, 248, 240, 0.8);
+  padding: 3rem;
+  border-radius: 20px;
+}
+
+.invitation {
+  font-size: 1.5rem;
+}
+
+.content {
+  padding: 1.5rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+.section a {
+color: #333;
+textdecoration: none;
+font-size: 1.3rem; /* normal*/
+border-bottom: 1px dotted #999;
+transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.section a:hover,
+.section a:focus {
+   color: #007BFF;
+   border-bottom: 1px solid #007BFF;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+form button {
+  background-color: #d2a679;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #b3865e;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f4ece4;
+  font-size: 0.9rem;
+}
+
+
+.map-container {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-top: 2.5rem;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  height: 500px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.slide-gradient {
+  height: 100px; /* Höhe des Verlaufs */
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #f8f2e9 100%);
+  margin-top: -5px; /* um die Verbindung zur Slideshow glatt zu machen */
+}
+
+.slide {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.fade {
+  animation: fadeEffect 1.5s ease-in-out;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0.3;}
+  to {opacity: 1;}
+}
+
+/* Grundstil der Navigationsleiste */
+#navbar {
+  position: sticky;
+  top: 0;
+  background-color: #fffdf8;
+  z-index: 1000;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Stil der Navigationslinks */
+#navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Great Vibes', cursive; /* Schriftart */
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+}
+
+#navbar ul li {
+  margin: 0 15px;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 14px 20px;
+  text-decoration: none;
+  color: #8b5e3c; /* Textfarbe */
+  font-weight: bold;
+}
+
+/* Hover-Effekt für Links */
+#navbar ul li a:hover {
+  background-color: #f2f2f2;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  #navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar ul li {
+    margin: 10px 0;
+  }
+}
+
+section {
+  scroll-margin-top: 80px; /* Höhe des Sticky-Headers */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.rsvp-form fieldset {
+  border: none;
+  margin-bottom: 20px;
+  align-items: left;
+}
+
+.radio-option label {
+   display: flex;
+   align-items:center;
+   font-size: 18px;
+}
+
+.label-text {
+   margin-right: 10px;
+}
+
+.radio-option input[type="radio"] {
+   width: 16px;
+   height: 16px;
+}
+
+.radio-option,
+.checkbox-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.radio-option input,
+.checkbox-option input {
+  margin-right: 8px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-align:left;
+  font-size: 1.3rem;
+}
+
+.comments-section {
+  margin-top: 15px;
+}
+
+.comments-section label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+.comments-section textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+.comments-section {
+  margin-top: 15px;
+}
+
+.comments-section label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.comments-section textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.upload-icon {
+  font-size: 40px; /* Passe die Größe nach Bedarf an */
+  color: #8b5e3c;
+}
+
+
+.trauzeugen {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.trauzeugen-container {
+  display: flex; /* Aktiviert Flexbox für die Anordnung der Trauzeugen */
+  justify-content: center; /* Zentriert die Trauzeugen horizontal */
+  gap: 40px; /* Abstand zwischen den Trauzeugen */
+  flex-wrap: wrap; /* Ermöglicht Umbruch auf kleineren Bildschirmen */
+}
+
+.trauzeuge {
+  background-color: #ffffff; /* Weißer Hintergrund für jeden Trauzeugen */
+  padding: 20px;
+  border-radius: 10px; /* Abgerundete Ecken */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Leichter Schatten */
+  max-width: 300px;
+  flex: 1 1 300px; /* Flexibles Verhalten mit Mindestbreite */
+  text-align: center;
+}
+
+.trauzeuge img {
+  width: 100%; /* Bild füllt die Breite des Containers */
+  height: auto; /* Höhe wird automatisch angepasst */
+  border-radius: 50%; /* Rundes Bild */
+  margin-bottom: 15px;
+}
+
+.trauzeuge h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.trauzeuge p {
+  margin: 20px 0;
+  font-size: 1em;
+}
+
+.trauzeuge a {
+  color: #333; /* Dunkle Schriftfarbe für Links */
+  text-decoration: none; /* Entfernt Unterstreichung */
+}
+
+.trauzeuge a:hover {
+  text-decoration: underline; /* Unterstreichung beim Hover */
+}

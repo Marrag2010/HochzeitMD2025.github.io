@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<div class="flower-frame">
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Marlène & David heiraten!</title>
+  <style>
+    body {
+      font-family: serif;
+      background-color: #fef9f6;
+      margin: 0;
+      padding: 0;
+    }
+
+    .slideshow-container {
+      position: relative;
+      max-width: 100%;
+      height: 400px;
+      overflow: hidden;
+    }
+
+    .slide {
+      display: none;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .fade {
+      animation: fadeEffect 1.5s ease-in-out;
+    }
+
+    @keyframes fadeEffect {
+      from {opacity: 0.3;}
+      to {opacity: 1;}
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-top: 20px;
+      font-family: 'Brush Script MT', cursive;
+      color: #7a4c32;
+    }
+  </style>
+<meta charset="UTF-8" />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="slideshow-container">
+    <div class="slide fade">
+      <img src="header1.jpg" alt="Max und Lisa 1">
+    </div>
+    <div class="slide fade">
+      <img src="header2.jpg" alt="Max und Lisa 2">
+    </div>
+    <div class="slide fade">
+      <img src="header3.jpg" alt="Max und Lisa 3">
+    </div>
+    <div class="slide fade">
+      <img src="header4.jpg" alt="Max und Lisa 3">
+    </div>
+    <div class="slide fade">
+      <img src="header5.jpg" alt="Max und Lisa 3">
+    </div>
+    <div class="slide fade">
+      <img src="header6.jpg" alt="Max und Lisa 3">
+    </div>
+    <div class="slide fade">
+      <img src="header7.jpg" alt="Max und Lisa 3">
+    </div>
+<div class="slide-gradient"></div>
+</div>
+
+  <h1>Marlène & David heiraten!</h1>
+  <hr class="hr-text" data-content="Wir heiraten und wir wollen es mit Dir feiern!!">
+ 
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      const slides = document.getElementsByClassName("slide");
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      slides[slideIndex - 1].style.display = "block";  
+      setTimeout(showSlides, 4000); // alle 4 Sekunden wechseln
+    }
+  </script>
+
+<nav id="navbar">
+  <ul>
+    <li><a href="#Einladung">Einladung</a></li>
+    <li><a href="#Location">Location</a></li>
+    <li><a href="#Zeitplan">Zeitplan</a></li>
+    <li><a href="#RSVP">RSVP</a></li>
+    <li><a href="#Wünsche">Wünsche</a></li>
+    <li><a href="#guest-photos">Gallerie</a></li>
+    <li><a href="#FAQ">FAQ</a></li>
+    <li><a href="#Trauzeugen">Trauzeugen</a></li>
+  </ul>
+</nav>
+
+
+</body>
+
+  <main class="content">
+    <section id="Einladung">
+      <h2>Unsere Einladung <span><i class="fa-solid fa-envelope"></i></span></h2>
+      <p>Wir freuen uns riesig, diesen besonderen Tag mit dir zu verbringen.</p>
+    </section>
+
+   <section id="Location">
+      <h2>Location <span><i class="fa-solid fa-location-dot"></i></span></h2>
+      <p>Wir feiern in der<strong> Alten Bahnhofshalle in Friedenau</strong>,</p>
+      <p>Bahnhofstraße 4a-d  12159 Berlin</p>
+      <p>erreichbar mit</p>
+	<p></p>
+      <p><strong>S-Bahn</strong></p>
+      <p>S1, S2 Bahnhof Friedenau / S4 Innsbrucker Platz</p>
+	<p></p>
+      <p><strong>U-Bahn</strong></p>
+      <p>U4 Innsbrucker Platz / U9 Friedrich-Wilhelm Platz</p>
+	<p></p>
+      <p><strong>Bus</strong></p>
+      <p>Buslinie 148, 186, 174, 187</p>
+ <div class="map-container">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.6255937987225!2d13.332799977161186!3d52.47211527200792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a850ac36885a67%3A0x888dc6f58586b5b3!2sBahnhofstra%C3%9Fe%204A-B%2C%2012159%20Berlin!5e0!3m2!1sde!2sde!4v1715262051955!5m2!1sde!2sde"
+      width="100%"
+      height="300"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+    </section>
+
+    <section id="Zeitplan">
+      <h2>Zeitplan <span><i class="fa-solid fa-calendar-days"></i></span></h2>
+      <div class="zeitplan">
+        <div class="icon"><i class="fa-solid fa-rings-wedding"></i></div>
+        <div class="zeit"><strong>02.10.2025</strong></div>
+        <div class="ereignis"> – Standesamtliche Trauung im engen Familienkreis im Sandesamt Pankow</div>
+        <div class="icon"><i class="fa-solid fa-party-horn"></i></div>
+        <div class="zeit"><strong>03.10.2025</strong></div>
+        <div class="ereignis"> – Feier</div>
+        <div class="icon"><i class="fa-solid fa-user-group"></i></div>
+        <div class="zeit"><strong>15:00</strong></div>
+	<div class="ereignis"> – Eintreffen der Gäste</div>
+        <div class="icon"><i class="fa-solid fa-champagne-glasses"></i></div>
+	<div class="zeit"><strong>16:00</strong></div>
+	<div class="ereignis"> – Sektempfang, Ansprache & Gruppenfotos</div>
+        <div class="icon"><i class="fa-solid fa-utensils"></i></div>
+	<div class="zeit"><strong>  18:30</strong></div>
+	<div class="ereignis"> – BBQ Buffet</div>
+ 	<div class="icon"><i class="fa-solid fa-cake-candles"></i></div>
+	<div class="zeit"><strong>  21:30</strong></div>
+	<div class="ereignis"> – Kuchen Anschnitt</div>
+        <div class="icon"><i class="fa-solid fa-bed"></i></div>
+	<div class="zeit"><strong>03:00</strong></div>
+ 	<div class="ereignis"> – Ende</div>
+      </div>
+    </section>
+
+    <section id="RSVP">
+      <h2>RSVP <span><i class="fa-solid fa-envelope-circle-check"></i></span></h2>
+      <p>Bitte gebt uns bis zum 01.08.2025 Bescheid ob Ihr dabei seid und zu wie vielt ihr kommt</p>
+      <form action="https://script.google.com/macros/s/AKfycbydRdY0Kq6-uZsq_fLXluVAiSwx7DSrPGT87ut8awNsS7z1lRhLedRczn3LIaD-wtkahQ/exec" method="POST">
+  <label>
+    Dein Name:
+    <input type="text" name="name" required>
+  </label><br>
+  <label>
+    Deine E-Mail:
+    <input type="email" name="email" required>
+  </label><br>
+ <form class="rsvp-form">
+  <!-- Frage 1: Teilnahme -->
+  <fieldset>
+    <legend>Wirst du an der Hochzeit teilnehmen?</legend>
+    <div class="radio-option">
+<label>      
+<input type="radio" id="rsvp-yes" name="rsvp" value="yes">
+      <span class="label-text">Ja, ich werde dabei sein</label>
+</label>    
+</div>
+    <div class="radio-option">
+<label>
+      <input type="radio" id="rsvp-no" name="rsvp" value="no">
+      <span class="label-text">Nein, ich kann leider nicht dabei sein</label>
+</label>    
+</div>
+  </fieldset>
+  <!-- Frage 2: Weitere Unternehmungen -->
+  <fieldset>
+    <legend>Weitere Unternehmungen</legend>
+    <div class="radio-option">
+<label>
+      <input type="radio" id="weekend-activity" name="weekend_activity" value="yes">
+      <span class="label-text">Ich möchte am Wochenende noch etwas mit euch unternehmen</label>
+</label>    
+</div>
+  </fieldset>
+<div class="comments-section">
+  <label for="comments">Hast du Anmerkungen oder spezielle Wünsche?</label>
+  <textarea id="comments" name="comments" rows="4" placeholder="Deine Nachricht..."></textarea>
+</div> 
+  <button type="submit">Antwort senden</button>
+</form>
+    </section>
+
+   <section id="Wünsche">
+      <h2>Wünsche<span><i class="fa-solid fa-gift"></i></span></h2>
+      <p>Unser größtes Geschenk ist, dass Ihr diesen besonderen Tag mit uns feiert!</p>
+      <p>Wir wissen, dass Hochzeiten auch als Gast teuer sind, deshalb sind Geschenke für uns Optional</p>
+      <p>Wenn ihr dennoch etwas mitbringen möchtet, macht ihr uns mit einem Beitrag zu unseren</p>
+      <p>Flitterwochen die größte Freude</p>
+   </section>
+
+  <section id="guest-photos">
+  <div class= "section">
+  <h2>Gallerie<span><i class="fa-solid fa-camera"></i></span></h2>
+  <p>Wir würden uns freuen, wenn du deine schönsten Erinnerungen mit uns teilst.</p>
+<p>
+  <a href="https://www.dropbox.com/scl/fo/pspxwjc1ed57amuu5yztb/AF7BZYcdOPOBxY_RxLPGHeo?rlkey=eijl0rzlr8l6ya6hegmi9k4xo&st=vdlsjhjj&dl=0" target="_blank" class="upload-button">
+    <i class="fa-solid fa-upload upload-icon"></i>
+  </a>
+</p>
+  </section>
+
+
+    <section id="FAQ">
+      <h2>FAQ<span><i class="fa-solid fa-question"></i></span></h2>
+      <div class= "ul">
+        <li><strong>Was ist der Dresscode?</strong> – Wir machen uns schick, macht euch gerne mit uns schick!</li>
+        <li><strong>Kinder?</strong> – Wir hätten gerne eine Erwachsenenparty</li>
+        <li><strong>Gibt es eine Geschenkeliste?</strong> – Siehe <a href="#Wünsche">Wünsche</a></li>
+	<li><strong>Sind Spiele erlaubt?</strong> - Spiele sind sogar erwünscht! Melde Dich gerne bei unseren Trazeugen</li>
+        <li><strong>Kann ich auch mit dem Auto zur Location kommen?</strong> - Parkplätze gibt es auf der Straße, am Feiertag muss man nicht bezahlen, am nächsten Tag aber schon</li>
+	<li><strong>Was ist mit Musik?</strong> - Ihr könnt uns helfen indem ihr unsere Hochzeitsplaylist füllt</li>   
+	<li><strong>Wo sitze ich bei der Hochzeit?</strong> - Am besten gar nicht, es gibt keine Tischordnung, sitzt für das Essen wo ihr wollt, aber dann geht es auf die Tanzfläche!</li> 
+	<li><strong>Könnt ihr eine Unterkunft empfehlen?</strong> - Keine
+</ul>
+
+<section id="Trauzeugen">
+     <section class="trauzeugen">
+  <h2>Unsere Trauzeugen<span><i class="fa-solid fa-face-smile-wink"></i></span></h2>
+<p> Unsere Trauzeugen sind für euch da um Überraschungen, Spiele oder weitere kreative Ideen</p>
+<p> zu koordinieren</p>
+  <div class="trauzeugen-container">
+    <div class="trauzeuge">
+      <img src="Zouzou.jpg" alt="Foto von Trauzeuge 1">
+      <h3>Zoé Holfert</h3>
+      <p>📞 <a href="tel:+491234567890">+49 123 4567890</a></p>
+      <p>📧 <a href="mailto:max@example.com">max@example.com</a></p>
+    </div>
+    <div class="trauzeuge">
+      <img src="pfad-zu-bild2.jpg" alt="Foto von Trauzeuge 2">
+      <h3>Erika Musterfrau</h3>
+      <p>📞 <a href="tel:+491098765432">+49 109 8765432</a></p>
+      <p>📧 <a href="mailto:erika@example.com">erika@example.com</a></p>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    <p>© Marlène & David 2025</p>
+  </footer>
+</body>
+</div>
+</html>
