@@ -181,48 +181,49 @@
     <section id="RSVP">
       <h2>RSVP <span><i class="fa-solid fa-envelope-circle-check"></i></span></h2>
       <p>Bitte gebt uns bis zum 01.08.2025 Bescheid ob Ihr dabei seid und zu wie vielt ihr kommt</p>
-<form action="https://script.google.com/macros/s/AKfycbwLvXRB-Fwxa50N12lyjem1m6NZ4BhPL6Orzmn3_vCuzpZzIzNeaA5EkMhESPQeK67JQQ/exec" method="POST" class="rsvp-form">
-  <label for="name">Dein Name:</label>
-  <input type="text" id="name" name="name" required>
-
-  <label for="email">Deine E-Mail:</label>
-  <input type="email" id="email" name="email" required>
-
+<form action="https://script.google.com/macros/s/AKfycbwLvXRB-Fwxa50N12lyjem1m6NZ4BhPL6Orzmn3_vCuzpZzIzNeaA5EkMhESPQeK67JQQ/exec" method="POST">
+  <label>
+    Dein Name:
+    <input type="text" name="name" required>
+  </label><br>
+  <label>
+    Deine E-Mail:
+    <input type="email" name="email" required>
+  </label><br>
+ <form class="rsvp-form">
+  <!-- Frage 1: Teilnahme -->
   <fieldset>
     <legend>Wirst du an der Hochzeit teilnehmen?</legend>
     <div class="radio-option">
-	    <label>
-      <input type="radio" name="attendance" value="yes">
-      Ja, ich werde dabei sein
-	    </label>
-    </div>
+<label>      
+<input type="radio" id="rsvp-yes" name="rsvp" value="yes">
+      <span class="label-text">Ja, ich werde dabei sein</label>
+</label>    
+</div>
     <div class="radio-option">
-	    <label>
-      <input type="radio" name="attendance" value="no">
-      Nein, ich kann leider nicht dabei sein
-	    </label>
-    </div>
+<label>
+      <input type="radio" id="rsvp-no" name="rsvp" value="no">
+      <span class="label-text">Nein, ich kann leider nicht dabei sein</label>
+</label>    
+</div>
   </fieldset>
-
+  <!-- Frage 2: Weitere Unternehmungen -->
   <fieldset>
     <legend>Weitere Unternehmungen</legend>
-    <div class="checkbox-option">
-	    <label>
-      <input type="checkbox" name="weekend_activity" value="yes">
-      Ich möchte am Wochenende noch etwas mit euch unternehmen
-	    </label>
-    </div>
+    <div class="radio-option">
+<label>
+      <input type="radio" id="weekend-activity" name="weekend_activity" value="yes">
+      <span class="label-text">Ich möchte am Wochenende noch etwas mit euch unternehmen</label>
+</label>    
+</div>
   </fieldset>
-
-  <div class="comments-section">
-    <label for="comments">Hast du Anmerkungen oder spezielle Wünsche?</label>
-    <textarea id="comments" name="comments" rows="4" placeholder="Deine Nachricht..."></textarea>
-  </div>
-
+<div class="comments-section">
+  <label for="comments">Hast du Anmerkungen oder spezielle Wünsche?</label>
+  <textarea id="comments" name="comments" rows="4" placeholder="Deine Nachricht..."></textarea>
+</div> 
   <button type="submit">Antwort senden</button>
 </form>
     </section>
-
    <section id="Wünsche">
       <h2>Wünsche<span><i class="fa-solid fa-gift"></i></span></h2>
       <p>Unser größtes Geschenk ist, dass Ihr diesen besonderen Tag mit uns feiert!</p>
