@@ -98,7 +98,6 @@ ul.timeline li {
   text-align: left;
 }
 
-
 .ul a {
 color: #333;
 textdecoration: none;
@@ -375,6 +374,15 @@ html {
 .checkbox-option input[type="checkbox"] {
   margin-right: 10px;
   vertical-align: middle;
+}
+
+.radio-option label,
+.checkbox-option label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px; /* Abstand zwischen Button und Text */
+  font-weight: normal;
 }
 
 .comments-section {
