@@ -182,47 +182,38 @@
       <h2>RSVP <span><i class="fa-solid fa-envelope-circle-check"></i></span></h2>
       <p>Bitte gebt uns bis zum 01.08.2025 Bescheid ob Ihr dabei seid und zu wie vielt ihr kommt</p>
 <form action="https://script.google.com/macros/s/AKfycbwLvXRB-Fwxa50N12lyjem1m6NZ4BhPL6Orzmn3_vCuzpZzIzNeaA5EkMhESPQeK67JQQ/exec" method="POST" class="rsvp-form">
-  <label>
-    Dein Name:
-    <input type="text" name="name" required>
-  </label><br>
+  <label for="name">Dein Name:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
 
-  <label>
-    Deine E-Mail:
-    <input type="email" name="email" required>
-  </label><br>
+  <label for="email">Deine E-Mail:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
 
   <fieldset>
     <legend>Wirst du an der Hochzeit teilnehmen?</legend>
-	  <div class="radio-option">
     <label>
       <input type="radio" name="rsvp" value="yes" required>
       Ja, ich werde dabei sein
     </label><br>
-	  </div>
-	  <div class="radio-option">
     <label>
       <input type="radio" name="rsvp" value="no">
       Nein, ich kann leider nicht dabei sein
     </label>
-	  </div>
-  </fieldset>
+  </fieldset><br>
 
   <fieldset>
     <legend>Weitere Unternehmungen</legend>
-	  <div class="radio-option">
     <label>
       <input type="checkbox" name="weekend_activity" value="yes">
       Ich möchte am Wochenende noch etwas mit euch unternehmen
     </label>
-	  </div>
-  </fieldset>
+  </fieldset><br>
 
   <label for="comments">Hast du Anmerkungen oder spezielle Wünsche?</label><br>
-  <textarea id="comments" name="comments" rows="4" placeholder="Deine Nachricht..."></textarea><br>
+  <textarea id="comments" name="comments" rows="4" placeholder="Deine Nachricht..."></textarea><br><br>
 
   <button type="submit">Antwort senden</button>
 </form>
+
 
     </section>
 
