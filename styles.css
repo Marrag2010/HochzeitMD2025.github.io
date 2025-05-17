@@ -53,7 +53,7 @@ h2 span {
 
 p {
   font-size: 1.3rem;
-  line-height: 0.5; /* Standard ist meist 1.4 – 1.6 sieht luftig aus */
+  line-height: 1.6; /* Standard ist meist 1.4 – 1.6 sieht luftig aus */
   text-align: center;
 }
 
