@@ -330,7 +330,7 @@ footer {
 }
 
 /* Standard-Navigation */
-.nav-links {
+/*.nav-links {
   display: flex;
   list-style: none;
 }
