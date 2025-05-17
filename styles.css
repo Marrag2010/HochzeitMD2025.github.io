@@ -3,7 +3,7 @@ body::before {
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
   background: url('floral-frame.png') no-repeat center center;
-  background-size: cover;
+  background-size: 100%;
   opacity: 0.25; /* Transparenz anpassbar */
   z-index: -1;
   pointer-events: none;
