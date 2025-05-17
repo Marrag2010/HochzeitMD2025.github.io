@@ -3,7 +3,7 @@ body::before {
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
   background: url('floral-frame.png') no-repeat center center;
-  background-size: 1200px;
+  background-size: cover;
   opacity: 0.25; /* Transparenz anpassbar */
   z-index: -1;
   pointer-events: none;
@@ -89,7 +89,7 @@ ul.timeline li {
 .zeitplan {
   display: grid;
   /*grid-template-columns: 70px 100px auto*/
-  grid-template-columns: 10% 15% 75%;
+  grid-template-columns: 15% 15% 70%;
   row-gap: 10px;
   align-items: center;
   font-size: 1.3rem; /* normal*/
