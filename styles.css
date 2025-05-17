@@ -89,7 +89,7 @@ ul.timeline li {
 .zeitplan {
   display: grid;
   /*grid-template-columns: 70px 100px auto*/
-  grid-template-columns: 10% 25% 65%;
+  grid-template-columns: 10% 15% 75%;
   row-gap: 10px;
   align-items: center;
   font-size: 1.3rem; /* normal*/
