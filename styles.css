@@ -329,6 +329,37 @@ footer {
   }
 }
 
+/* Standard-Navigation */
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+/* Hamburger-Button ausblenden */
+.hamburger {
+  display: none;
+}
+
+/* Für Bildschirme mit max. 768px Breite */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 2rem;
+  }
+}
+
+  
 section {
   scroll-margin-top: 80px; /* Höhe des Sticky-Headers */
 }
