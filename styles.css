@@ -323,7 +323,8 @@ footer {
   #navbar ul {
     flex-direction: column;
     align-items: center;
-
+  }
+  
   #navbar ul li {
     margin: 10px 0;
   }
@@ -413,7 +414,6 @@ html {
   font-size: 40px; /* Passe die Größe nach Bedarf an */
   color: #8b5e3c;
 }
-
 
 .trauzeugen {
   padding: 40px 20px;
