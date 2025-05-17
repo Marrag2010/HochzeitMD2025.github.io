@@ -399,7 +399,7 @@ html {
 .comments-section label {
   display: block;
   margin-bottom: 5px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .comments-section textarea {
