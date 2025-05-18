@@ -113,7 +113,7 @@ ul.timeline li {
 
 .ul a {
 color: #333;
-textdecoration: none;
+text-decoration: none;
 font-size: 1.3rem; /* normal*/
 border-bottom: 1px dotted #999;
 transition: color 0.3s ease, border-color 0.3s ease;
@@ -191,11 +191,12 @@ transition: color 0.3s ease, border-color 0.3s ease;
 
 section {
   margin-bottom: 3rem;
+    scroll-margin-top: 80px; /* Höhe des Sticky-Headers */
 }
 
 .section a {
 color: #333;
-textdecoration: none;
+text-decoration: none;
 font-size: 1.3rem; /* normal*/
 border-bottom: 1px dotted #999;
 transition: color 0.3s ease, border-color 0.3s ease;
@@ -391,10 +392,6 @@ footer {
   }
 }
 
-section {
-  scroll-margin-top: 80px; /* Höhe des Sticky-Headers */
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -457,12 +454,6 @@ html {
   border: 1px solid #ccc;
   border-radius: 5px;
   resize: vertical;
-}
-
-.comments-section label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: normal;
 }
 
 .upload-icon {
