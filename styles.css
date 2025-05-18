@@ -284,16 +284,16 @@ footer {
 }
 
 /* Grundstil der Navigationsleiste */
-#navbar {
+/*#navbar {
   position: sticky;
   top: 0;
   background-color: #fffdf8;
   z-index: 1000;
   border-bottom: 1px solid #ccc;
-}
+}*/
 
 /* Stil der Navigationslinks */
-#navbar ul {
+/*#navbar ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -301,42 +301,42 @@ footer {
   font-size: 1.4rem;
   display: flex;
   justify-content: center;
-}
+}*/
 
-#navbar ul li {
+/*#navbar ul li {
   margin: 0 15px;
-}
+}*/
 
-#navbar ul li a {
+/*#navbar ul li a {
   display: block;
   padding: 14px 20px;
   text-decoration: none;
   color: #8b5e3c; /* Textfarbe */
-  font-weight: bold;
-}
+/*  font-weight: bold;*/
+}*/
 
 /* Hover-Effekt für Links */
-#navbar ul li a:hover {
+/*#navbar ul li a:hover {
   background-color: #f2f2f2;
   border-radius: 4px;
-}
+}*/
 
-@media (max-width: 780px) {
+/*@media (max-width: 780px) {
   #navbar ul {
     flex-direction: column;
     align-items: center;
-  }
+  }*/
   
-  #navbar ul li {
+/*  #navbar ul li {
     margin: 10px 0;
   }
-}
+}*/
 
 /* Standard-Navigation */
-.nav-links {
+/*.nav-links {
   display: flex;
   list-style: none;
-}
+}*/
 
 .topnav {
   overflow: hidden;
