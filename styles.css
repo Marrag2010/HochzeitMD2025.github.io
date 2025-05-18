@@ -347,8 +347,9 @@ footer {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #8b5e3c;
   text-align: center;
+  font-family: 'Great Vibes', cursive; /* Schriftart */
   padding: 14px 16px;
   text-decoration: none;
 }
