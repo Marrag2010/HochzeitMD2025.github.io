@@ -299,7 +299,7 @@ footer {
   padding: 0;
   font-family: 'Great Vibes', cursive; /* Schriftart */
   font-size: 1.4rem;
-  display: flex;
+  /*display: flex;+/
   justify-content: center;
 }*/
 
