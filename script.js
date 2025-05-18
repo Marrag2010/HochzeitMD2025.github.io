@@ -13,3 +13,12 @@ function showSlides() {
   setTimeout(showSlides, 4000); // Wechsel alle 4 Sekunden
 }
 </script>
+
+function toggleMenu() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
