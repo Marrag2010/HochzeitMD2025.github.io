@@ -68,6 +68,10 @@ label {
   font-size: 1.3rem;
 }
 
+legend {
+  font-size: 1.3rem;
+}
+
 .ul {
   font-size: 1.3rem; /* normal*/
   line-height: 1.6; /* Standard ist meist 1.4 – 1.6 sieht luftig aus */
