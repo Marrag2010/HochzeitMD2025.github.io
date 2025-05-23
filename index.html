@@ -84,23 +84,6 @@
 
   <h1>Marlène & David heiraten!</h1>
   <hr class="hr-text" data-content="Wir heiraten und wir wollen es mit Dir feiern!!">
- 
-
-  <script>
-    let slideIndex = 0;
-    showSlides();
-
-    function showSlides() {
-      const slides = document.getElementsByClassName("slide");
-      for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1}    
-      slides[slideIndex - 1].style.display = "block";  
-      setTimeout(showSlides, 4000); // alle 4 Sekunden wechseln
-    }
-  </script>
 
 	<div class="topnav" id="myTopnav">
     <a href="#Einladung" class="active">Einladung</a>
@@ -291,7 +274,6 @@
   <footer>
     <p>© Marlène & David 2025</p>
   </footer>
-	  <script src="script.js"></script>
 </body>
 </div>
 </html>
