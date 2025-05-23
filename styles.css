@@ -316,7 +316,7 @@ footer {
   .topnav a:not(:first-child) {
     display: none;
   }
-
+}
   .topnav a.icon {   
     float: right;
     display: block;
@@ -341,7 +341,8 @@ footer {
     text-align: left;
    /* width: 100%;*/
   }
-
+}
+  
 html {
   scroll-behavior: smooth;
 }
