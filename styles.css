@@ -292,13 +292,13 @@ footer {
 .topnav {
   overflow: hidden;
   background-color: #fffdf8;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  /*padding: 10px;*/
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  /*justify-content: center;*/
   width: 100%;
   position: sticky;
   top: 0;
+  z-index: 1000;
 }
 
 .topnav a {
@@ -307,7 +307,7 @@ footer {
   color: #8b5e3c;
   text-align: center;
   font-family: 'Great Vibes', cursive;
-  padding: 14px 16px;
+  padding: 10px 12px;
   text-decoration: none;
   font-size: 1.0rem;
 }
