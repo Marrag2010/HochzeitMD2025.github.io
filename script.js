@@ -13,10 +13,20 @@ function showSlides() {
 }
 
 function toggleNav() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
+  const nav = document.getElementById("myTopnav");
+  nav.classList.toggle("responsive");
 }
+
+// Automatisch schließen nach Linkklick auf Mobilgeräten
+document.addEventListener("DOMContentLoaded", function () {
+  const nav = document.getElementById("myTopnav");
+  const links = nav.querySelectorAll("a:not(.icon)");
+
+  links.forEach(link => {
+    link.addEventListener("click", () => {
+      if (nav.classList.contains("responsive")) {
+        nav.classList.remove("responsive");
+      }
+    });
+  });
+});
