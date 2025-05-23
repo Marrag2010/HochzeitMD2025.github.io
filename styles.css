@@ -329,8 +329,8 @@ footer {
 @media screen and (max-width: 600px) {
   .topnav.responsive {
     position: relative;
-    /*flex-direction: column;*/
-    /*align-items: flex-start;*/
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .topnav.responsive a.icon {
