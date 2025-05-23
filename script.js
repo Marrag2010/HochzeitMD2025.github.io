@@ -1,4 +1,3 @@
-<script>
 let slideIndex = 0;
 showSlides();
 
@@ -21,4 +20,3 @@ function toggleNav() {
     x.className = "topnav";
   }
 }
-</script>
