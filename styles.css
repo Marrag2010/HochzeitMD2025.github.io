@@ -356,9 +356,9 @@ display: none;
   }
 
   .topnav.responsive a {
-    float: none;
+    /*float: none;*/
     display: block;
-    text-align: left;
+    /*text-align: left;*/
    /* width: 100%;*/
   }
 }
