@@ -329,13 +329,13 @@ footer {
     display: block;
     align-self: flex-end;
   }
-}
 
 .topnav a {
 display: none;
   width: 100%;
   text-align: left;
   padding-left: 20px;
+}
 }
   
 @media screen and (max-width: 600px) {
