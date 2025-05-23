@@ -304,7 +304,6 @@ footer {
 
 
 .topnav a {
-  float: center
   display: block;
   color: #8b5e3c;
   text-align: center;
@@ -343,7 +342,7 @@ display: none;
   }
   
   .topnav.responsive {
-    max-height:100vh
+    max-height:100vh;
    /* position: relative;*/
    /* flex-direction: column;*/
    /* align-items: flex-start;*/
