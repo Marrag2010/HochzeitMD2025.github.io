@@ -15,7 +15,6 @@ body {
   background: #fffdf8;
   color: #3e3e3e;
   overflow-x: hidden;
-  padding-top: 60px;
 }
 
 @media (max-width: 600px) {
@@ -333,8 +332,8 @@ footer {
 @media screen and (max-width: 600px) {
   .topnav.responsive {
     position: relative;
-    flex-direction: column;
-    align-items: flex-start;
+   /* flex-direction: column;*/
+   /* align-items: flex-start;*/
   }
 
   .topnav.responsive a.icon {
