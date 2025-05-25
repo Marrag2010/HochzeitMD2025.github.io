@@ -36,7 +36,7 @@ h1, h2 {
 h1 {
   font-size: 5rem; /* sehr groß */
   margin-bottom: 0.2em; /* oder 0, je nach gewünschtem Abstand */
-  text-alignment: center;
+  text-align: center;
 }
 
 h2 {
