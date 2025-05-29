@@ -430,6 +430,11 @@ html {
   color: #8b5e3c;
 }
 
+.music-icon {
+  font-size: 40px; /* Passe die Größe nach Bedarf an */
+  color: #8b5e3c;
+}
+
 .trauzeugen {
   text-align: center;
 }
