@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"
+	<title> </title>
+	<style>
+    body {
+      font-family: serif;
+      background-color: #fef9f6;
+      margin: 0;
+      padding: 0;
+    }
+
+    .slideshow-container {
+      position: relative;
+      max-width: 100%;
+      height: 400px;
+      overflow: hidden;
+    }
+
+    .slide {
+      display: none;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .fade {
+      animation: fadeEffect 1.5s ease-in-out;
+    }
+
+    @keyframes fadeEffect {
+      from {opacity: 0.3;}
+      to {opacity: 1;}
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-top: 20px;
+      font-family: 'Brush Script MT', cursive;
+      color: #7a4c32;
+    }
+  </style>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+	<script src="script.js" defer></script>
+</head>
+	
+<body>
+<div class="flower-frame">
+  <div class="slideshow-container">
+    <div class="slide fade">
+      <img src="header1.JPG" alt="Marlène und David 1">
+    </div>
+    <div class="slide fade">
+      <img src="header2.JPG" alt="Marlène und David 2">
+    </div>
+    <div class="slide fade">
+      <img src="header3.JPG" alt="Marlène und David 3">
+    </div>
+    <div class="slide fade">
+      <img src="header4.JPG" alt="Marlène und David 4">
+    </div>
+    <div class="slide fade">
+      <img src="header5.jpg" alt="Marlène und David 5">
+    </div>
+    <div class="slide fade">
+      <img src="header6.jpg" alt="Marlène und David 6">
+    </div>
+    <div class="slide fade">
+      <img src="header7.jpg" alt="Marlène und David 7">
+    </div>
+    <div class="slide fade">
+      <img src="header8.jpeg" alt="Marlène und David 8">
+    </div>
+  <div class="slide fade">
+      <img src="header9.jpeg" alt="Marlène und David 9">
+    </div>
+	  <div class="slide fade">
+      <img src="header10.jpeg" alt="Marlène und David 10">
+    </div>
+	  <div class="slide fade">
+      <img src="header11.jpeg" alt="Marlène und David 11">
+    </div>
+	  <div class="slide fade">
+      <img src="header12.jpeg" alt="Marlène und David 12">
+    </div>
+	  <div class="slide fade">
+      <img src="header13.jpeg" alt="Marlène und David 13">
+    </div>
+	   <div class="slide fade">
+      <img src="header14.jpeg" alt="Marlène und David 14">
+    </div>
+<div class="slide-gradient"></div>
+</div>
+
+  <h1>Marlène & David heiraten!</h1>
+  <hr class="hr-text" data-content="Wir heiraten und wir wollen es mit Dir feiern!!">
+
+<nav>
+  <a href="/index.html">Deutsch</a> |
+  <a href="/fr/index.html">Français</a>
+</nav>	
+	<div class="topnav" id="myTopnav">
+    <a>Menü</a>
+<a href="#Einladung" class="active">Einladung</a>
+    <a href="#Location">Location</a>
+    <a href="#Zeitplan">Zeitplan</a>
+    <a href="#RSVP">RSVP</a>
+    <a href="#Wünsche">Wünsche</a>
+    <a href="#guest-photos">Gallerie</a>
+    <a href="#FAQ">FAQ</a>
+    <a href="#Trauzeugen">Trauzeugen</a>
+<a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+    ☰
+</a>
+</div>
+
+</body>
+
+  <main class="content">
+    <section id="Einladung">
+      <h2><i class="fa-solid fa-envelope"></i><span>Unsere Einladung</span></h2>
+      <p>Wir freuen uns riesig, diesen besonderen Tag mit dir zu verbringen.</p>
+    </section>
+
+   <section id="Location">
+     <h2><i class="fa-solid fa-location-dot"></i><span>Location</span></h2>
+      <p>Wir feiern in der<strong> Alten Bahnhofshalle in Friedenau</strong>,</p>
+      <p>Bahnhofstraße 4a-d  12159 Berlin</p>
+      <p>erreichbar mit</p>
+	<p></p>
+      <p><strong>S-Bahn</strong></p>
+      <p>S1 Bahnhof Friedenau / S4 Innsbrucker Platz</p>
+	<p></p>
+      <p><strong>U-Bahn</strong></p>
+      <p>U4 Innsbrucker Platz / U9 Friedrich-Wilhelm Platz</p>
+	<p></p>
+      <p><strong>Bus</strong></p>
+      <p>Buslinie 148, 186, 174, 187</p>
+ <div class="map-container">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.6255937987225!2d13.332799977161186!3d52.47211527200792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a850ac36885a67%3A0x888dc6f58586b5b3!2sBahnhofstra%C3%9Fe%204A-B%2C%2012159%20Berlin!5e0!3m2!1sde!2sde!4v1715262051955!5m2!1sde!2sde"
+      width="100%"
+      height="300"
+      style="border:0; display:block;"
+      allow="fullscreen; geolocation"
+      loading="eager"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+    </section>
+
+    <section id="Zeitplan">
+      <h2><i class="fa-solid fa-calendar-days"></i><span>Zeitplan</span></h2>
+      <div class="zeitplan">
+        <div class="icon"><i class="fa-solid fa-place-of-worship"></i></div>
+        <div class="zeit"><strong>02.10</strong></div>
+        <div class="ereignis">Standesamtliche Trauung im engen Familienkreis im Sandesamt Pankow</div>
+        <div class="icon"><i class="fa-solid fa-music"></i></div>
+        <div class="zeit"><strong>03.10</strong></div>
+        <div class="ereignis">Feier</div>
+        <div class="icon"><i class="fa-solid fa-user-group"></i></div>
+        <div class="zeit"><strong>15:00</strong></div>
+	<div class="ereignis">Eintreffen der Gäste</div>
+        <div class="icon"><i class="fa-solid fa-champagne-glasses"></i></div>
+	<div class="zeit"><strong>16:00</strong></div>
+	<div class="ereignis">Sektempfang, Ansprache & Gruppenfotos</div>
+        <div class="icon"><i class="fa-solid fa-utensils"></i></div>
+	<div class="zeit"><strong>18:30</strong></div>
+	<div class="ereignis">BBQ Buffet</div>
+ 	<div class="icon"><i class="fa-solid fa-cake-candles"></i></div>
+	<div class="zeit"><strong>21:30</strong></div>
+	<div class="ereignis">Kuchen Anschnitt</div>
+        <div class="icon"><i class="fa-solid fa-bed"></i></div>
+	<div class="zeit"><strong>03:00</strong></div>
+ 	<div class="ereignis">Ende</div>
+      </div>
+    </section>
+
+    <section id="RSVP">
+      <h2><i class="fa-solid fa-envelope-circle-check"></i><span>RSVP</span></h2>
+      <p>Bitte gebt uns bis zum 01.08.2025 Bescheid ob Ihr dabei seid und zu wie vielt ihr kommt</p>
+  <form action="https://script.google.com/macros/s/AKfycbwbF1akZbqVwCZ2ELg5RzGWQ34bSqztgGBdOQYBUqYrCCzl2UgC73TnQuWg2938DbBTBQ/exec" method="POST">
+	  <label>
+    Dein Name:
+    <input type="text" name="name" required>
+  </label><br>
+  <label>
+    Deine E-Mail:
+    <input type="email" name="email" required>
+  </label><br>
+ <form class="rsvp-form">
+  <!-- Frage 1: Teilnahme -->
+  <fieldset>
+    <legend>Wirst du an der Hochzeit teilnehmen?</legend>
+    <div class="radio-option">
+<label>      
+<input type="radio" id="rsvp-yes" name="rsvp" value="yes">
+      <span class="label-text">Ja, ich werde dabei sein</label>
+</label>    
+</div>
+    <div class="radio-option">
+<label>
+      <input type="radio" id="rsvp-no" name="rsvp" value="no">
+      <span class="label-text">Nein, ich kann leider nicht dabei sein</label>
+</label>    
+</div>
+  </fieldset>
+  <!-- Frage 2: Weitere Unternehmungen -->
+  <fieldset>
+    <legend>Weitere Unternehmungen</legend>
+    <div class="radio-option">
+<label>
+      <input type="radio" id="weekend-activity" name="weekend_activity" value="yes">
+      <span class="label-text">Ich möchte am Samstag noch etwas mit euch unternehmen, zB: Bootstour und/oder Abendessen</label>
+</label>    
+</div>
+  </fieldset>
+<div class="comments-section">
+  <label for="comments">Zu wie viel kommt ihr? Hast du Anmerkungen oder spezielle Wünsche?</label>
+  <textarea id="comments" name="comments" rows="4" placeholder="Deine Nachricht..."></textarea>
+</div> 
+  <button type="submit">Antwort senden</button>
+</form>
+    </section>
+   <section id="Wünsche">
+      <h2><i class="fa-solid fa-gift"></i><span>Wünsche</span></h2>
+	   <div class="ul">
+      <p>Unser größtes Geschenk ist, dass Ihr diesen besonderen Tag mit uns feiert!</p>
+      <p>Wir wissen, dass Hochzeiten auch als Gast teuer sind, deshalb sind Geschenke optional</p>
+      <p>Wenn ihr dennoch etwas mitbringen möchtet, macht ihr uns mit einem Beitrag zu unseren Flitterwochen die größte Freude</p>
+	   </ul>
+   </section>
+
+  <section id="guest-photos">
+  <div class= "section">
+  <h2><i class="fa-solid fa-camera"></i><span>Gallerie</span></h2>
+  <p>Wir würden uns freuen, wenn du deine schönsten Erinnerungen von unserer Hochzeit mit uns teilst.</p>
+<p>
+  <a href="https://www.dropbox.com/scl/fo/pspxwjc1ed57amuu5yztb/AF7BZYcdOPOBxY_RxLPGHeo?rlkey=eijl0rzlr8l6ya6hegmi9k4xo&st=vdlsjhjj&dl=0" target="_blank" class="upload-button">
+    <i class="fa-solid fa-upload upload-icon"></i>
+  </a>
+</p>
+	  <p>*Die Dropbox wird erst kurz vor der Hochzeit eröffnet*</p>
+  </section>
+
+
+    <section id="FAQ">
+      <h2><i class="fa-solid fa-question"></i><span>FAQ</span></h2>
+      <div class= "ul">
+        <p><span><strong>Was ist der Dresscode?</strong></span></p>
+	     <p>Wir machen uns schick, macht euch gerne mit uns schick!</p>
+        <p><span><strong>Kinder?</strong></span></p>
+	     <p>Wir hätten gerne eine Erwachsenenparty</p>
+        <p><span><strong>Gibt es eine Geschenkeliste?</strong></span></p>
+	      <p>Siehe <a href="#Wünsche">Wünsche</a></p>
+	<p><span><strong>Sind Spiele erlaubt?</strong></span></p>
+	      <p>Spiele sind sogar erwünscht! Melde Dich gerne bei unseren Trazeugen</p>
+        <p><span><strong>Kann ich auch mit dem Auto zur Location kommen?</strong></span></p>
+	      <p>Parkplätze gibt es auf der Straße, am Feiertag muss man nicht bezahlen, am nächsten Tag aber schon</p>
+	<p><span><strong>Was ist mit Musik?</strong></span></p>
+		<p>Ihr könnt uns helfen indem ihr unsere Hochzeitsplaylist füllt:
+			<a href="https://open.spotify.com/playlist/5vi66ljDSfKiGQPRq2To2Y?si=GyKuXfg1RfCZ9G0YWcFcOg&nd=1&dlsi=9ded810fb7ef4d57" target="_blank" class="music-button"><i class="fa-solid fa-music"></i></a>
+		</p>   
+	<p><span><strong>Wo sitze ich bei der Hochzeit?</strong></span></p>
+		<p>Am besten gar nicht, es gibt keine Tischordnung, sitzt für das Essen wo ihr wollt, aber dann geht es auf die Tanzfläche!</p> 
+	<p><span><strong>Könnt ihr eine Unterkunft empfehlen?</strong></span></p>
+		<p>Alles was auf der S1 Linie ist ist optimal um zu Alten Bahnhofshalle zukommen</p>
+</ul>
+
+<section id="Trauzeugen">
+     <section class="trauzeugen">
+  <h2><i class="fa-solid fa-face-smile-wink"></i><span>Unsere Trauzeugen</span></h2>
+<p> Unsere Trauzeugen sind für euch da um Überraschungen, Spiele oder weitere kreative Ideen zu koordinieren</p>
+  <div class="trauzeugen-container">
+    <div class="trauzeuge">
+      <img src="Zouzou.jpg" alt="Foto von Trauzeuge 1">
+      <h3>Zoé Holfert</h3>
+      <p>📞 <a href="tel:+33679038690">+33 6 79 03 86 90</a></p>
+      <p>📧 <a href="mailto:zoe.holfert@gmail.com">zoe.holfert@gmail.com</a></p>
+    </div>
+    <div class="trauzeuge">
+      <img src="pfad-zu-bild2.jpg" alt="Foto von Trauzeuge 2">
+      <h3>Martin Reinbach</h3>
+      <p>📞 <a href="tel:+491098765432">+49 109 8765432</a></p>
+      <p>📧 <a href="mailto:erika@example.com">erika@example.com</a></p>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    <p>© Marlène & David 2025</p>
+  </footer>
+</body>
+</div>
+</html>
