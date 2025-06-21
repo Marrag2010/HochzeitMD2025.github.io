@@ -52,6 +52,15 @@ h2 span {
   margin-left: 1.0em;
 }
 
+h3 {
+  text-align: center;
+  margin: 20px auto;
+  margin-top: 0.2em; /* oder 0, je nach gewünschtem Abstand */
+  color: #7a4c32; /* Textfarbe */
+  font-family: 'Great Vibes', cursive; /* Schriftart */
+  font-size: 1.5em; /* Schriftgröße anpassen */
+}
+
 p {
   font-size: 1.3rem;
   line-height: 1.6; /* Standard ist meist 1.4 – 1.6 sieht luftig aus */
